@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+body {
+    font-family: $font-family-base;
+    min-height: 100vh;
+    background-color: $bg-color-primary;
+
+}
+
+.homepage {
+    padding: 4.5rem 10.313rem;
+    display: flex;
+    flex: 1;
+    gap: 3rem;
+    position: relative;
+
+    .homepage-wrap {
+        flex: 1;
+        position: relative;
+    }
+}
+
+.overlay {
+    position: fixed;
+    /* Fixed position to cover the entire viewport */
+    background-color: rgba($color-base, 0.5);
+    /* Use RGBA color to set opacity */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 888;
+}

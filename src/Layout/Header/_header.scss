@@ -1,0 +1,76 @@
+@use '../../css/abstracts/variables' as *;
+
+.header {
+    display: flex;
+    gap: 1.875rem;
+    align-items: start;
+    flex: 1;
+    margin-bottom: 2rem;
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+
+        background-color: $color-base;
+        padding: 0.875rem 2rem;
+        border-radius: 10px;
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            .logged-in-as {
+                font-size: $font-size-small;
+                color: $color-base-secondary;
+            }
+
+            .username {
+                font-size: $font-size-base;
+                font-weight: $font-weight-bold;
+                color: $color-base-tertiary;
+            }
+        }
+
+        .log-out-btn {
+            font-size: $font-size-small;
+            font-weight: $font-weight-bold;
+
+            background-color: $color-tertiary;
+            color: $color-base-tertiary;
+            padding: 0.75rem 1.5rem;
+
+            border-radius: 10px;
+            border: none;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($color-tertiary, 10%);
+            }
+        }
+    }
+}
+
+.logo {
+    color: $color-base-tertiary;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 3.875rem 8rem 2rem 2rem;
+
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+
+    h1 {
+        font-size: $font-size-headidng-main;
+        font-weight: $font-weight-bold;
+    }
+
+    h2 {
+        font-size: $font-size-headidng-small;
+        opacity: 75%;
+    }
+}

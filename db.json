@@ -1,0 +1,172 @@
+{
+  "tables": [
+    {
+      "id": "21",
+      "name": "Table 21",
+      "status": "paying",
+      "orders": [
+        {
+          "id": "2",
+          "name": "Water",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Table 20",
+      "status": "paying",
+      "orders": [
+        {
+          "id": "3",
+          "name": "Beer",
+          "price": 70
+        },
+        {
+          "id": "3",
+          "name": "Beer",
+          "price": 70
+        },
+        {
+          "id": "3",
+          "name": "Beer",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Table 19",
+      "status": "waiting",
+      "orders": []
+    },
+    {
+      "id": "28",
+      "name": "Table 28",
+      "status": "served",
+      "orders": [
+        {
+          "id": "1",
+          "name": "Coca-Cola",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Table 29",
+      "status": "served",
+      "orders": [
+        {
+          "id": "3",
+          "name": "Beer",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Table 10",
+      "status": "served",
+      "orders": [
+        {
+          "id": "3",
+          "name": "Beer",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Table 12",
+      "status": "waiting"
+    },
+    {
+      "id": "6",
+      "name": "Table 6",
+      "status": "waiting"
+    },
+    {
+      "id": "1",
+      "name": "Table 1",
+      "status": "waiting"
+    },
+    {
+      "id": "11",
+      "name": "Table 11",
+      "status": "waiting"
+    },
+    {
+      "id": "2",
+      "name": "Table 2",
+      "status": "waiting"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Coca-Cola",
+      "price": 65
+    },
+    {
+      "id": "2",
+      "name": "Water",
+      "price": 60
+    },
+    {
+      "id": "3",
+      "name": "Beer",
+      "price": 70
+    },
+    {
+      "id": "4",
+      "name": "Coffee",
+      "price": 80
+    },
+    {
+      "id": "5",
+      "name": "Tea",
+      "price": 60
+    },
+    {
+      "id": "6",
+      "name": "Orange Juice",
+      "price": 85
+    },
+    {
+      "id": "7",
+      "name": "Lemonade",
+      "price": 75
+    },
+    {
+      "id": "8",
+      "name": "Milkshake",
+      "price": 100
+    },
+    {
+      "id": "9",
+      "name": "Smoothie",
+      "price": 110
+    },
+    {
+      "id": "10",
+      "name": "Espresso",
+      "price": 90
+    },
+    {
+      "id": "11",
+      "name": "Latte",
+      "price": 95
+    },
+    {
+      "id": "12",
+      "name": "Iced Tea",
+      "price": 65
+    },
+    {
+      "id": "13",
+      "name": "Iced Coffee",
+      "price": 85
+    }
+  ]
+}
